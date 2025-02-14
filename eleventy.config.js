@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: ".", // Root als Quelle
       output: "docs" // WICHTIG: docs für GitHub Pages
-    }
+    },
+    pathPrefix: "/witt-logopaedie.de/"
   };
 };
