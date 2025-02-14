@@ -6,7 +6,7 @@ module.exports = function(eleventyConfig) {
   return {
     dir: {
       input: ".", // Root als Quelle
-      output: "_site"
+      output: "docs" // WICHTIG: docs für GitHub Pages
     }
   };
 };
